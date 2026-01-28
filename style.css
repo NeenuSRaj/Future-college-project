@@ -1,0 +1,101 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #2e8b57;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header h3 {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #2e8b57;
+    margin-bottom: 15px;
+}
+
+ul, ol, dl {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #2e8b57;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Media */
+img, video {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e8b57;
+    color: white;
+}
+/* Headings with eco-friendly colors */
+h1 {
+    color: #023d1c;  /* Dark Green for main title */
+}
+
+h2 {
+    color: #06dd2a;  /* Medium Green for section headings */
+}
+
+h3 {
+    color: #1c00b9;  /* Teal / Blue-Green for subheadings */
+}
+h1 {
+    background: linear-gradient(90deg, #2e8b57, #20b2aa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
